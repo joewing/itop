@@ -1,4 +1,4 @@
-jtop for IRIX
+top clone for IRIX
 =============
 Joe Wingbermuehle
 http://joewing.net
@@ -22,8 +22,8 @@ Edit the "Makefile" and run "make".
 
 Usage
 -----
-jtop displays a few lines of information at the top of the display and
-then gives a list of processes. Press 'h' or '?' for help while jtop
+itop displays a few lines of information at the top of the display and
+then gives a list of processes. Press 'h' or '?' for help while itop
 is running. The process list displays the following:
  PID       the process identification number
  PGRP      the process group

@@ -1,5 +1,5 @@
 #############################################################################
-# Makefile for jtop
+# Makefile for itop
 #############################################################################
 
 CC = gcc
@@ -8,7 +8,7 @@ LFLAGS =
 
 OBJECTS = load.o username.o process.o misc.o command.o help.o cpu.o \
 	memory.o swap.o main.o
-EXE = jtop
+EXE = itop
 
 .SUFFIXES: .c .o .h
 
