@@ -40,9 +40,9 @@ void DisplayHelp() {
 	printf("s        - change the number of seconds between updates");
 	printf("\033[%d;%dH", 9, 4);
 	printf("i or I   - toggle the display of idle processes");
-	printf("\033[%d;%dH", 9, 4);
-	printf("r        - renice a process");
 	printf("\033[%d;%dH", 10, 4);
+	printf("r        - renice a process");
+	printf("\033[%d;%dH", 11, 4);
 	printf("u        - show a user's processes (+ for all)");
 
 	printf("\033[%d;%dH", 20, 0);
